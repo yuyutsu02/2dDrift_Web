@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>TEST</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="menu">
+            <div class="tuning">
+                <div class="sliderInputs">
+                    <p>Engine Power </p>
+                    <input type="range" min="0" max="50" value="15" class="enginePower slider">
+                    <p>Rev Limiter </p>
+                    <input type="range" min="40" max="200" value="100" class="revLimiter slider">
+                    <p>Drift </p>
+                    <input type="range" min="900" max="999" value="980" class="engineBreaking slider">
+                    <p>Stearing Angle </p>
+                    <input type="range" min="10" max="30" value="15" class="handle slider">
+                    <p>Reaction Force(after hitting a wall) </p>
+                    <input type="range" min="0" max="5" value="1" class="collisionForce slider">
+                    <input type="button" class="setValue" value="START">
+                </div>
+            </div>
+        </div>
+        <canvas class="cvs"> </canvas>
+    </body>
+</html>

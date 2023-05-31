@@ -1,0 +1,81 @@
+body{
+    margin:0px;
+    width: 100vw;
+    height:100vh;
+    background-color:rgb(0, 87, 0);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvs{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(69, 59, 46);
+    box-shadow: 0px 0px 12px rgb(0, 59, 5) inset;
+    border-radius: min(2vw,2vh);
+}
+.menu{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tuning{
+    width:min(90vw,90vh);
+    height:min(90vw,90vh);
+    border-radius: min(10vw,10vh);
+    background-color: rgba(0, 0, 0, 0.385);
+    box-shadow: 
+              0px 0px 1px rgb(0, 0, 0),
+              0px 0px 2px rgb(0, 0, 0),
+              0px 0px 3px rgb(0, 0, 0),
+              0px 0px 4px rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sliderInputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 2px rgb(8, 0, 255);
+}
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    border-radius: 1000px;
+}
+.setValue{
+    margin-top:min(2vw,2vh);
+    width: 50%;
+    height: 10%;
+    border-radius: 1000px;
+    background-color: rgb(124, 185, 255);
+    cursor: pointer;
+}
+.showMenu{
+    margin-top:min(2vw,2vh);
+    width: 50%;
+    height: 10%;
+    border-radius: 1000px;
+    background-color: rgb(124, 185, 255);
+    cursor: pointer;
+}
